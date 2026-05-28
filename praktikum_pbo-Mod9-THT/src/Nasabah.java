@@ -28,6 +28,6 @@ public class Nasabah {
     }
 
     public void hubungiCS(CustomerService cs, String keluhan) {
-        cs.layaniKeluhan(this.nama, keluhan); // hubungan Asosiasi dan kedua objek berdiri sendiri, namun dapat saling berinteraksi
+        cs.layaniKeluhan(this.nama, keluhan); // hubungan asosiasi dan kedua objek berdiri sendiri, namun dapat saling berinteraksi
     }
 }

@@ -46,9 +46,7 @@ public abstract class Rekening implements Otorisasi{
     public void setSaldoRek(double saldoRek) {
         this.saldoRek = saldoRek;
     }
-
-    // abstract void setor();
-    // abstract void tarik();
+    
     
     public void tarik(double biaya) {
         setSaldoRek(saldoRek - biaya);

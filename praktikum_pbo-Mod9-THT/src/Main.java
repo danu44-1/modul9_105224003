@@ -13,7 +13,7 @@ public class Main {
             System.out.println("1. Registrasi Profil Nasabah");
             System.out.println("2. Buka Rekening Baru (Reguler/Prioritas)");
             System.out.println("3. Simulasi Transaksi & Lihat Mutasi (Login)");
-            System.out.println("4. Hubungi Customer Service (Asosiasi)");
+            System.out.println("4. Hubungi Customer Service");
             System.out.println("5. Keluar");
             System.out.print("Pilih : ");
             pilihan = in.nextInt();
@@ -62,7 +62,7 @@ public class Main {
                         System.out.println("Error: Belum ada rekening aktif di sistem.");
                         break;
                     }
-                    System.out.print("Masukkan PIN Akun Anda: ");
+                    System.out.print("Masukkan PIN Akun : ");
                     String pinIn = in.nextLine();
                     
                     bank.verifikasiPIN(pinIn);
